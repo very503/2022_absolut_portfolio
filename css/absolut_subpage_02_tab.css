@@ -1,0 +1,270 @@
+/* 헤더 */
+div.hdrWrap>div.header{
+    width: 90%;
+    max-width: 700px;
+    font-size: 16px;
+}
+  
+/* 메뉴 네비게이션 박스 */
+div.navBoxWrap{
+    left: calc((100vw - 900px) / 0.8);
+}
+div.navBoxWrap>div.navBox{
+    width: 90%;
+    max-width: 700px;
+}
+div.navBoxWrap>div.navBox>ul.nav{
+    width: calc(100% / 8 * 2.5);
+    padding: 20px 0px 20px 30px;
+}
+div.navBoxWrap>div.navBox>ul.nav>li:nth-child(1){
+    font-size: 20px;
+    margin-right: 20px;
+}
+div.navBoxWrap>div.navBox>ul.nav>li:nth-child(2){
+    margin-top: 20px;
+}
+div.navBoxWrap>div.navBox>ul.nav>li{
+    font-size: 15px;
+}
+  
+/* 검색 네비게이션 박스 */
+input#ch01:checked+div.scBoxWrap{
+    width: calc(100% / 8 * 1.8);
+    height: 220px;
+}
+div.scBoxWrap{
+    width: calc(100% / 8 * 1.8);
+    right: calc((100vw - 900px) / 0.8);
+}
+div.scBoxWrap>div.scBox{
+    width: 90%;
+    max-width: 700px;
+    padding: 20px 0px 20px 0px;
+}
+div.scBoxWrap>div.scBox>ul.search>li{
+    font-size: 20px;
+}
+div.scBoxWrap>div.scBox>form>input{
+    margin-top: 45px;
+    font-size: 17px;
+}
+
+/* 메인 */
+div.mainWrap{
+    margin-top: 0px;
+    height: 400px;
+}
+div.mainWrap>div.main{
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* 컨텐츠 공통 */
+div.cntWrap{
+    margin-top: 40px;
+}
+
+/* 컨텐츠1 */
+div.cntWrap>div.content.cnt01{
+    width: 90%;
+    max-width: 700px;
+}
+div.cntWrap>div.content.cnt01>div.header>h2{
+    font-size: 20px;
+}
+div.cntWrap>div.content.cnt01>div.header>p{
+    font-size: 16px;
+    width: calc(100% / 12 * 7.5);
+}
+div.cntWrap>div.content.cnt01>div.section {
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artLeft{
+    padding-right: 30px;
+    width: calc(100% / 12 * 4.5);
+    margin-top: 80px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artLeft>div.article>div.texts>p>br{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artLeft>div.article>div.texts>div.btn{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artMid{
+    width: calc(100% / 12 * 3);
+}
+div.cntWrap>div.content.cnt01>div.section>div.artRight{
+    padding-left: 30px;
+    width: calc(100% / 12 * 4.5);
+    margin-top: 80px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artRight>div.article>div.texts>p>br{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artRight>div.article>div.texts>div.btn{
+    display: none;
+}
+
+/* 배너1 */
+div.bnrWrap.bnr01{
+    margin-top: 40px;
+    height: 280px;
+    background-size: cover;
+}
+
+/* 컨텐츠2 */
+div.cntWrap>div.content.cnt02>div.section{
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
+    height: 400px;
+}
+
+/* 컨텐츠3 */
+div.cntWrap>div.content.cnt03>div.section>div.artLeft{
+    width: calc(100% / 8 * 3);
+}
+div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.imgGroup>div.image{
+    height: 360px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article{
+    width: calc((100vw - 700px) / 2 + 100%);
+    margin-left: calc((100vw - 700px) / -2);
+    height: 360px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight{
+    width: calc(100% / 8 * 5);
+    height: 220px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article{
+    width: calc((100vw - 700px) / 2 + 100%);
+    min-width: calc((100vw - 90vw) / 2 + 100%);
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article::after{
+    width: 40px;
+    bottom: 476px;
+    left: 30px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.imgGroup2{
+    width: 155.65%;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.imgGroup2>div.image{
+    height: 220px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.texts{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.texts>h5{
+    font-size: 12px;
+    line-height: 30px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.texts>h3{
+    font-size: 20px;
+    line-height: 20px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.texts>h4{
+    font-size: 12px;
+    margin-top: 0;
+}
+
+/* 컨텐츠4 */
+div.cntWrap>div.content.cnt04{
+    margin-top: 60px;
+}
+div.cntWrap>div.content.cnt04>div.header{
+    margin-top: 30px;
+    width: calc(100% / 8 * 2);
+}
+div.cntWrap>div.content.cnt04>div.header>h5{
+    font-size: 12px;
+    line-height: 40px;
+}
+div.cntWrap>div.content.cnt04>div.header>h3{
+    font-size: 20px;
+    line-height: 25px;
+}
+div.cntWrap>div.content.cnt04>div.header>p{
+    font-size: 12px;
+    line-height: 20px;
+    height: 40px;
+}
+div.cntWrap>div.content.cnt04>div.section{
+    width: calc(100% / 8 * 6);
+}
+div.cntWrap>div.content.cnt04>div.section>div.artView{
+    width: calc((100vw - 700px) / 2 + 100%);
+    min-width: calc((100vw - 90vw) / 2 + 100%);
+    height: 200px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.artView>div.artGroup>div.article>div.image{
+    height: 170px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.artView>div.artGroup>div.article>div.texts{
+    font-size: 12px;
+    margin-top: 10px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.bar>div.per{
+    width: calc(100% / 6 * 4);
+    margin-left: 20px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.bar>div.btnLeft{
+    margin-top: -13px;
+    width: 35px;
+    height: 35px; 
+}
+div.cntWrap>div.content.cnt04>div.section>div.bar>div.btnRight{
+    margin-top: -13px;
+    width: 35px;
+    height: 35px; 
+}
+
+/* 배너2 */
+div.bnrWrap.bnr02{
+    margin-top: 40px;
+    height: 240px;
+    background-size: cover;
+}
+div.bnrWrap.bnr02>div.banner.bnr02>h2{
+    font-size: 24px;
+    padding-top: 40px;
+}
+div.bnrWrap.bnr02>div.banner.bnr02>h5{
+    font-size: 14px;
+}
+div.bnrWrap.bnr02>div.banner.bnr02>div.frm{
+    padding-top: 30px;
+}
+div.bnrWrap.bnr02>div.banner.bnr02>div.frm>div.btn1>span{
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+/* 푸터 */
+div.ftrWrap{
+    margin: 40px 0px;
+}
+div.ftrWrap>div.footer{
+    width: 90%;
+    max-width: 700px;
+}
+div.ftrWrap>div.footer>div.logo{
+    font-size: 30px;
+}
+div.ftrWrap>div.footer>h3{
+    font-size: 14px;
+}
+div.ftrWrap>div.footer>form>input{
+    width: calc(100% / 8 * 3.5);
+}
+
+/* 투탑 */
+div.totop{
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+    bottom: 100px;
+    right: 90px;
+}
