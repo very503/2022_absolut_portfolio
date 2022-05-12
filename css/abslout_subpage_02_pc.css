@@ -245,9 +245,6 @@ div.cntWrap div.content>div.header>h2{
 }
 
 /* 컨텐츠1 */
-div.cntWrap>div.content.cnt01{}
-div.cntWrap>div.content.cnt01>div.header{}
-div.cntWrap>div.content.cnt01>div.header>h2{}
 div.cntWrap>div.content.cnt01>div.header>p{
     font-size: 16px;
     width: calc(100% / 12 * 5.5);
@@ -351,9 +348,6 @@ div.bnrWrap.bnr01{
 }
 
 /* 컨텐츠2 */
-div.cntWrap>div.content.cnt02{}
-div.cntWrap>div.content.cnt02>div.header{}
-div.cntWrap>div.content.cnt02>div.header>h2{}
 div.cntWrap>div.content.cnt02>div.header>p{
     font-size: 16px;
     line-height: 20px;
@@ -392,9 +386,6 @@ div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
 }
 
 /* 컨텐츠3 */
-div.cntWrap>div.content.cnt03{}
-div.cntWrap>div.content.cnt03>div.header{}
-div.cntWrap>div.content.cnt03>div.section{}
 div.cntWrap>div.content.cnt03>div.section::after{
     content: '';
     display: block;
@@ -717,7 +708,6 @@ div.bnrWrap.bnr02>div.banner.bnr02>div.frm>div.btn1>span{
 div.bnrWrap.bnr02>div.banner.bnr02>div.frm>div.btn1>i{
     line-height: 40px;
 }
-div.bnrWrap.bnr02>div.banner.bnr02>div.frm>form{}
 div.bnrWrap.bnr02>div.banner.bnr02>div.frm>form>input{
     width: calc(100% / 12 * 8 - 40px);
     margin: 0px 20px;
@@ -768,7 +758,6 @@ div.ftrWrap>div.footer>h3{
     line-height: 40px;
     font-family: 'nsRegular';
 }
-div.ftrWrap>div.footer>form{}
 div.ftrWrap>div.footer>form>input{
     width: calc(100% / 12 * 3.5);
     height: 40px;

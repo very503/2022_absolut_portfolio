@@ -134,7 +134,6 @@ div.navBoxWrap>div.navBox>ul.nav>li{
 div.navBoxWrap>div.navBox>ul.nav>li:hover{
   color: #6393bd;
 }
-div.navBoxWrap>div.navBox>ul.nav>li>i{}
 
 /* 검색 네비게이션 박스 */
 input#ch01{
@@ -327,7 +326,6 @@ div.cntWrap>div.content.cnt02{
     max-width: 1080px;
     margin: 0 auto;
 }
-div.cntWrap>div.content.cnt02>div.header{}
 div.cntWrap>div.content.cnt02>div.section{
     display: flex;
     justify-content: space-between;
@@ -342,7 +340,6 @@ div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article.a1{
     bottom: -80px;
     z-index: -2;
 }
-div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article.a1>div.image{}
 div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article.a1>div.image>div.overGride{
     width: calc((100vW - 1080px) / 2 + 100%);
     min-width: calc((100vw - 80vw) / 2 + 100%);
@@ -353,7 +350,6 @@ div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article.a1>div.image>d
     background-repeat: no-repeat;
     background-position: center;
 }
-div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article.a1>div.texts{}
 div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article.a2{
     width: calc(100% / 6 * 2.8);
 }
@@ -395,14 +391,11 @@ div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article.a2>div.image>d
 div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article.a2>div.image>div.overGride>div.imgGroup>div.img.i5{
   background-image: url('../images/sub03_cnt02_left_05.jpg');
 }
-div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article.a2>div.texts{}
-
 div.cntWrap>div.content.cnt02>div.section>div.artRight{
     width: calc(100% / 12 * 6);
     margin-top: 80px;
     margin-left: 60px;
 }
-div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a1{}
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a1>div.texts{
     color: #333;
 }
@@ -421,7 +414,6 @@ div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a1>div.texts>
     height: 40px;
     overflow: hidden;
 }
-div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a1>div.image{}
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2{
     margin-top: 80px;
 }
@@ -475,7 +467,6 @@ div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.btns>d
   position: relative;
   right: -190px;
 }
-div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.texts{}
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.texts>div.bar{
     width: calc(100% / 6 * 2);
     margin-left: 30px;
@@ -496,7 +487,6 @@ div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.texts>
     font-family: 'nsBold';
     color: #333;
 }
-div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.texts>div.txt>span{}
 
 /* 컨텐츠3 */
 div.cntWrap>div.content.cnt03{
@@ -570,7 +560,6 @@ div.cntWrap>div.content.cnt03>div.section>div.artRight{
 div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article.a1{
   width: 100%;
 }
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article.a1>div.image{}
 div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article.a1>div.image>div.overGride{
   height: 480px;
   width: calc((100vW - 1080px) / 6 + 100%);
@@ -582,14 +571,12 @@ div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article.a1>div.image>
   position: relative;
   z-index: -1;
 }
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article.a1>div.texts {}
 div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article.a2{
   width: calc(100% / 7.5 * 3);
   position: absolute;
   bottom: 15px; right: 0;
   z-index: -2;
 }
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article.a2>div.image{}
 div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article.a2>div.image>div.overGride{
     height: 560px;
     width: calc((100vW - 1080px) / 2 + 100%);
@@ -599,7 +586,6 @@ div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article.a2>div.image>
     background-size: cover;
     background-image: url('../images/sub03_cnt03_bg.jpg');
 }
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article.a2>div.texts{}
 div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article.a3{
   display: none;
 }
@@ -613,7 +599,6 @@ div.cntWrap>div.content.cnt04{
   max-width: 1080px;
   margin: 0 auto;
 }
-div.cntWrap>div.content.cnt04>div.header{}
 div.cntWrap>div.content.cnt04>div.header>h2{
   font-size: 24px;
   line-height: 40px;
@@ -629,8 +614,6 @@ div.cntWrap>div.content.cnt04>div.section{
 div.cntWrap>div.content.cnt04>div.section>div.artLeft{
   width: calc(100% / 12 * 3);
 }
-div.cntWrap>div.content.cnt04>div.section>div.artLeft>div.article{}
-div.cntWrap>div.content.cnt04>div.section>div.artLeft>div.article>div.image{}
 div.cntWrap>div.content.cnt04>div.section>div.artLeft>div.article>div.texts{
   color: #333;
   margin-top: 160px;
@@ -714,7 +697,6 @@ div.cntWrap>div.content.cnt04>div.section>div.artRight>div.artView1>div.artGroup
 div.cntWrap>div.content.cnt04>div.section>div.artRight>div.artView1>div.artGroup1>div.article>div.image.i4{
   background-image: url('../images/sub03_cnt04_04.jpg');
 }
-div.cntWrap>div.content.cnt04>div.section>div.artRight>div.artView1>div.artGroup1>div.article>div.texts{}
 div.cntWrap>div.content.cnt04>div.section>div.artRight>div.artView2{
   width: calc((100vw - 1080px) / 2 + 100%);
   min-width: calc((100vw - 80vw) / 2 + 100%);
@@ -770,7 +752,6 @@ div.cntWrap>div.content.cnt04>div.section>div.artRight>div.artView2>div.artGroup
   margin-top: 0px;
   position: absolute;
 }
-div.cntWrap>div.content.cnt04>div.section>div.artRight>div.artView2>div.artGroup2>div.article>div.texts{}
 
 /* 배너 */
 div.bnrWrap{
@@ -808,7 +789,6 @@ div.ftrWrap>div.footer>h3{
   line-height: 40px;
   font-family: 'nsRegular';
 }
-div.ftrWrap>div.footer>form{}
 div.ftrWrap>div.footer>form>input{
   width: calc(100% / 12 * 3.5);
   height: 40px;

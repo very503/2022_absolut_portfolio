@@ -133,7 +133,6 @@ div.navBoxWrap>div.navBox>ul.nav>li{
 div.navBoxWrap>div.navBox>ul.nav>li:hover{
   color: #6393bd;
 }
-div.navBoxWrap>div.navBox>ul.nav>li>i{}
 
 /* 검색 네비게이션 박스 */
 input#ch01{
@@ -262,9 +261,6 @@ div.cntWrap>div.content div.article>div.image{
 }
 
 /* 컨텐츠1 */
-div.cntWrap>div.content.cnt01{}
-div.cntWrap>div.content.cnt01>div.header{}
-div.cntWrap>div.content.cnt01>div.header>h2{}
 div.cntWrap>div.content.cnt01>div.header>h5{
   font-size: 16px;
   line-height: 40px;
@@ -333,7 +329,6 @@ div.bnrWrap>div.banner.bnr01{
   max-width: 1080px;
   margin: 0 auto;
 }
-div.bnrWrap>div.banner.bnr01>div.bnrTop{}
 div.bnrWrap>div.banner.bnr01>div.bnrTop::after{
   content: '';
   display: block;
@@ -411,9 +406,6 @@ div.bnrWrap>div.banner.bnr01>div.bnrBtm>div.image.i3{
 }
 
 /* 컨텐츠2 */
-div.cntWrap>div.content.cnt02{}
-div.cntWrap>div.content.cnt02>div.header{}
-div.cntWrap>div.content.cnt02>div.header>h2{}
 div.cntWrap>div.content.cnt02>div.header>p{
   font-size: 16px;
   line-height: 20px;
@@ -477,7 +469,6 @@ div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>d
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.image.i8{
   background-image: url('../images/cnt02_img08.jpg');
 }
-div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.texts{}
 div.cntWrap>div.content.cnt02>div.section>div.btns{
   width: 100%;
   height: 80px;
@@ -530,9 +521,6 @@ div.cntWrap>div.content.cnt02>div.section>ul.paging>li.on{
 }
 
 /* 컨텐츠3 */
-div.cntWrap>div.content.cnt03{}
-div.cntWrap>div.content.cnt03>div.header{}
-div.cntWrap>div.content.cnt03>div.section{}
 div.cntWrap>div.content.cnt03>div.section::after{
   content: '';
   display: block;
@@ -577,7 +565,6 @@ div.cntWrap>div.content.cnt03>div.section>div.artLeft{
   width: calc(100% /12 * 8);
   float: left;
 }
-div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article{}
 div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article::after{
   content: '';
   display: block;
@@ -587,10 +574,6 @@ div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts{
   width: calc(100% / 2);
   float: left;
 }
-div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts>h3{}
-div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts>h5{}
-div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts>p{}
-div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts>div.btn{}
 div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.image{
   width: calc(100% / 2);
   height: 380px;
@@ -606,21 +589,13 @@ div.cntWrap>div.content.cnt03>div.section>div.artRight{
   width: calc(100% /12 * 4);
   float: left;
 }
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article{}
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.texts{}
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.texts>h3{}
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.texts>h5{}
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.texts>p{}
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.texts>div.btn{}
 div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.image{
   width: 100%;
   height: 380px;
   background-image: url('../images/cnt03_img03.jpg');
 }
-div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.image.i3{}
 
 /* 컨텐츠4 */
-div.cntWrap>div.content.cnt04{}
 div.cntWrap>div.content.cnt04::after{
   content: '';
   display: block;
@@ -736,10 +711,8 @@ div.cntWrap>div.content.cnt04>div.section>div.artView>div.artGroup>div.article>d
 div.cntWrap>div.content.cnt04>div.section>div.artView>div.artGroup>div.article>div.image.i7{
   background-image: url('../images/cnt04_img07.jpg');
 }
-div.cntWrap>div.content.cnt04>div.section>div.artView>div.artGroup>div.article>div.texts{}
 
 /* 배너2 */
-div.bnrWrap{}
 div.bnrWrap>div.banner.bnr02{
   width: 100vw;
 }
@@ -837,7 +810,6 @@ div.ftrWrap>div.footer>h3{
   line-height: 40px;
   font-family: 'nsRegular';
 }
-div.ftrWrap>div.footer>form{}
 div.ftrWrap>div.footer>form>input{
   width: calc(100% / 12 * 3.5);
   height: 40px;
