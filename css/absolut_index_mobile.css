@@ -144,7 +144,7 @@ div.cntWrap>div.content.cnt02>div.header>p{
   font-size: 13px;
 }
 div.cntWrap>div.content.cnt02>div.section{
-  margin: 30px 0px;
+  margin: 45px 0px;
 }
 div.cntWrap>div.content.cnt02>div.section::after{
   content: '';
