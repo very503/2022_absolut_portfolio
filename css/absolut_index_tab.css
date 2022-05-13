@@ -85,9 +85,13 @@ div.cntWrap div.content{
 }
 div.cntWrap>div.content>div.header>h2{
   font-size: 20px;
+  line-height: 50px;
 }
 
 /* 컨텐츠1 */
+div.cntWrap>div.content.cnt01>div.header>h5{
+  font-size: 14px;
+}
 div.cntWrap>div.content.cnt01>div.section{
   margin-top: 40px;
 }
@@ -99,7 +103,7 @@ div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>h3{
   font-size: 16px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>p{
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /* 배너공통 */
@@ -114,7 +118,7 @@ div.bnrWrap>div.banner.bnr01{
 }
 div.bnrWrap>div.banner.bnr01>div.bnrTop>div.texts{
   margin-top: 10px;
-  width: calc(50% - 20px);
+  width: calc(50% - 10px);
 }
 div.bnrWrap>div.banner.bnr01>div.bnrTop>div.texts>h5{
   font-size: 12px;
@@ -140,8 +144,8 @@ div.bnrWrap>div.banner.bnr01>div.bnrBtm>div.image{
   margin: 0 auto;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrBtm>div.image.i1{
-  width: calc(50% - 20px);
-  margin-right: 20px;
+  width: calc(50% - 10px);
+  margin-right: 10px;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrBtm>div.image.i2{
   width: calc(50% / 2 - 20px);
@@ -152,6 +156,9 @@ div.bnrWrap>div.banner.bnr01>div.bnrBtm>div.image.i3{
 }
 
 /* 컨텐츠2 */
+div.cntWrap>div.content.cnt02>div.header>p{
+  font-size: 14px;
+}
 div.cntWrap>div.content.cnt02>div.section{
   margin-top: 40px;
 }
@@ -167,6 +174,14 @@ div.cntWrap>div.content.cnt02>div.section>div.artGroup>div.article>div.image{
 }
 div.cntWrap>div.content.cnt02>div.section>div.btns{
   font-size: 30px;  
+}
+div.cntWrap>div.content.cnt02>div.section>div.btns>div.btnLeft{
+  width: 35px;
+  height: 110px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.btns>div.btnRight{
+  width: 35px;
+  height: 110px;
 }
 
 /* 컨텐츠3 */
