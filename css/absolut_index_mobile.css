@@ -103,6 +103,9 @@ div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>p{
 }
 
 /* 배너1 */
+div.bnrWrap>div.banner.bnr01>div.bnrTop>div.texts{
+  width: calc(50% - 20px);
+}
 div.bnrWrap>div.banner.bnr01>div.bnrTop>div.texts>h5{
   font-size: 10px;
   line-height: 20px;
