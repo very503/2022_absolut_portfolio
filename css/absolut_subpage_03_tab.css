@@ -143,7 +143,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artLeft>div.article.a2>div.image>d
 }
 div.cntWrap>div.content.cnt02>div.section>div.artRight{
     width: calc(100% / 8 * 4);
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 30px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.imgView{
@@ -161,7 +161,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a1>div.texts>
     font-size: 20px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a1>div.texts>p{
-    width: calc(100% / 4 * 3.5);
+    width: calc(100% / 4 * 3.7);
     font-size: 12px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2{
@@ -175,7 +175,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.btns{
     font-size: 40px;
     top: -58px;
     left: -3px;
-    opacity: 1;
+    opacity: 0.8;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.btns>div.btn:nth-child(2){
     right: -10px;
@@ -207,11 +207,11 @@ div.cntWrap>div.content.cnt03>div.section>div.artLeft{
     width: 50%;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article{
-    margin-top: 0px;
+    margin-top: 36px;
     margin-left: 0px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.images{
-    margin-top: 35px;
+    margin-top: 39px;
     margin-left: 0px;
     width: 100%;
 }
@@ -231,7 +231,7 @@ div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts>p>sp
 div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts>p{
     width: calc(100% / 4 * 3);
     font-size: 12px;
-    margin-top: -10px;
+    margin-top: 0px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artRight{
     width: 50%;
