@@ -151,11 +151,11 @@ div.cntWrap>div.content.cnt02>div.section::after{
   display: block;
   clear: both;
 }
-div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup{
+div.cntWrap>div.content.cnt02>div.section>div.artView{
   width: 100%;
 }
-div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article{
-  width: calc(100% / 3 - 20px);
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup{
+  width: 267%;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article:nth-child(4){
   display: none;
