@@ -171,8 +171,17 @@ div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.imgVie
     height: 80px;
     width: 100%;
 }
+div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.btns{
+    font-size: 40px;
+    top: -58px;
+    left: -3px;
+    opacity: 1;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.btns>div.btn:nth-child(2){
+    right: -10px;
+}
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.texts>div.bar{
-    margin-top: 20px;
+    margin-top: -17px;
     width: calc(100% / 4 * 1.1);
 }
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.texts>div.txt{
