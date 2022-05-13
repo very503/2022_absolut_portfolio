@@ -109,10 +109,12 @@ div.cntWrap>div.content.cnt01>div.section>div.artBtm{
   margin-top: 0px;
   height: 280px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.artGroup>div.article{}
 div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.artGroup>div.article>div.image{
   height: 280px;
   background-size: 106%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artBtm>div.artGroup>div.article>div.image.i1{
+  background-image: url(../images/sub01_cnt01_btm_img01_tab.jpg);
 }
 
 /* 컨텐츠2 */
