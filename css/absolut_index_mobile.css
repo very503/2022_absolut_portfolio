@@ -56,13 +56,16 @@ div.mainWrap>div.main>div.image{
 }
 
 /* 컨텐츠 공통 */
+div.cntWrap{
+  margin-top: 30px;
+}
 div.cntWrap>div.content div.header>h2{
   font-size: 16px;
 }
 
 /* 컨텐츠1 */
 div.cntWrap>div.content.cnt01>div.header>h5{
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
 }
 div.cntWrap>div.content.cnt01>div.section::after{
@@ -96,6 +99,7 @@ div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>h3{
 }
 div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>p{
   margin-top: 10px;
+  font-size: 12px;
 }
 
 /* 배너1 */
@@ -104,15 +108,15 @@ div.bnrWrap>div.banner.bnr01>div.bnrTop>div.texts>h5{
   line-height: 20px;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrTop>div.texts>h2{
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 12px;
+  line-height: 16px;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrTop>div.texts>div.btn{
   display: none;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrTop>div.image{
   width: 50%;
-  height: 120px;
+  height: 103px;
   margin-left: 0px;
   background-size: 104%;
 }
@@ -120,7 +124,7 @@ div.bnrWrap>div.banner.bnr01>div.bnrBtm{
   margin-top: 0px;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrBtm>div.image{
-  height: 120px;
+  height: 104px;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrBtm>div.image.i1{
   width: 50%;
@@ -137,7 +141,7 @@ div.bnrWrap>div.banner.bnr01>div.bnrBtm>div.image.i3{
 
 /* 컨텐츠2 */
 div.cntWrap>div.content.cnt02>div.header>p{
-  font-size: 14px;
+  font-size: 13px;
 }
 div.cntWrap>div.content.cnt02>div.section{
   margin-top: 0;
@@ -147,16 +151,16 @@ div.cntWrap>div.content.cnt02>div.section::after{
   display: block;
   clear: both;
 }
-div.cntWrap>div.content.cnt02>div.section>div.artGroup{
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup{
   width: 100%;
 }
-div.cntWrap>div.content.cnt02>div.section>div.artGroup>div.article{
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article{
   width: calc(100% / 3 - 20px);
 }
-div.cntWrap>div.content.cnt02>div.section>div.artGroup>div.article:nth-child(4){
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article:nth-child(4){
   display: none;
 }
-div.cntWrap>div.content.cnt02>div.section>div.artGroup>div.article>div.image{
+div.cntWrap>div.content.cnt02>div.section>div.artView>div.artGroup>div.article>div.image{
   height: 200px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.btns{
@@ -185,17 +189,20 @@ div.cntWrap>div.content.cnt02>div.section>ul.paging>li.on{
 div.cntWrap:nth-last-child(5){
   margin-top: 0;
 }
+div.cntWrap>div.content.cnt03>div.section div.texts>h5{
+  font-size: 13px;
+}
 div.cntWrap>div.content.cnt03>div.section div.texts>p{
-  margin-top: 30px;
+  margin-top: 15px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artLeft{
   width: 100%;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.image{
-  height: 218px;
+  height: 190px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts{
-  padding: 31px 0px;
+  padding: 24px 0px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts>h5::after{
   content: '';
@@ -211,7 +218,7 @@ div.cntWrap>div.content.cnt03>div.section>div.artRight{
 div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.texts{
   width: 50%;
   float: left;
-  padding: 31px 0px;
+  padding: 24px 0px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.texts>h5::after{
   content: '';
@@ -229,24 +236,28 @@ div.cntWrap>div.content.cnt03>div.section div.texts>p{
 div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article>div.image{
   width: 50%;
   float: left;
-  height: 218px;
+  height: 190px;
 }
 
 /* 컨텐츠4 */
+div.cntWrap:nth-child(4){
+  margin-top: 10px;
+}
 div.cntWrap>div.content.cnt04>div.header{
   width: 50%;
-  padding: 20px 0px 0px 0px;
+  padding: 35px 0px 0px 0px;
   margin-left: 10px;
-  height: 200px;
+  height: 0px;
 }
 div.cntWrap>div.content.cnt04>div.header>h2 {
   line-height: 25px;
 }
 div.cntWrap>div.content.cnt04>div.header>p{
-  width: calc(50% * 1.9);
-  height: 40px;
+  width: calc(50% * 2);
+  height: 35px;
   overflow: hidden;
-  font-size: 13px;
+  font-size: 12px;
+  line-height: 16px;
 }
 div.cntWrap>div.content.cnt04>div.header>div.bar>div.per{
   display: none;
@@ -306,6 +317,9 @@ div.bnrWrap>div.banner.bnr02>div.bnrSns>div.texts>h3{
 }
 
 /* 푸터 */
+div.ftrWrap{
+  margin: 30px 0px;
+}
 div.ftrWrap>div.footer>div.logo{
   font-size: 18px;
 }
