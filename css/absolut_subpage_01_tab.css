@@ -124,8 +124,8 @@ div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
 
 /* 컨텐츠3  */
 div.cntWrap.cntWrap03{
-  margin-top: -120px;
-  height: 430px;
+  margin-top: -100px;
+  height: 400px;
 }
 div.cntWrap.cntWrap03>div.content.cnt03>div.header{
   padding-top: 145px;
@@ -153,11 +153,17 @@ div.cntWrap.cntWrap03>div.content.cnt03>div.section>div.artTop>div.article>div.t
 }
 
 /* 컨텐츠4 */
+div.cntWrap:nth-child(4){
+  margin-top: 0px;
+}
 div.cntWrap>div.content.cnt04>div.section>div.artTop>div.article{
   height: 230px;
 }
 div.cntWrap>div.content.cnt04>div.section>div.artTop>div.article>div.image{
   height: 230px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.artMid{
+  margin-top: 0px;
 }
 div.cntWrap>div.content.cnt04>div.section>div.artMid>div.article>div.image{
   width: calc(100% / 8 * 1.1 );
@@ -177,6 +183,9 @@ div.cntWrap>div.content.cnt04>div.section>div.artMid>div.article>div.texts>p{
   line-height: 20px;
   height: 30px;
   margin-top: 20px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.artBtm{
+  margin-top: 0px;
 }
 div.cntWrap>div.content.cnt04>div.section>div.artBtm>div.article>div.image{
   height: 230px;
