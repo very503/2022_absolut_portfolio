@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+  }
 /* 헤더 */
 div.hdrWrap>div.header{
     width: 90%;
