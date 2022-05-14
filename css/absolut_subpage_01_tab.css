@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 /* 헤더 */
 div.hdrWrap>div.header{
   width: 90%;
@@ -124,7 +127,7 @@ div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
 
 /* 컨텐츠3  */
 div.cntWrap.cntWrap03{
-  margin-top: -100px;
+  margin-top: -80px;
   height: 400px;
 }
 div.cntWrap.cntWrap03>div.content.cnt03>div.header{
