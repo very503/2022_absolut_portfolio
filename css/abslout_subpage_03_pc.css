@@ -463,6 +463,9 @@ div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.btns{
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.btns>div.btn{
   cursor: pointer;
 }
+div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.btns>div.btn:hover{
+  color: #fc0;
+}
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.btns>div.btn:nth-child(2){
   position: relative;
   right: -190px;

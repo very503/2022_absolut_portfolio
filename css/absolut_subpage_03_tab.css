@@ -1,6 +1,3 @@
-body{
-    overflow-x: hidden;
-  }
 /* 헤더 */
 div.hdrWrap>div.header{
     width: 90%;
@@ -67,6 +64,7 @@ div.mainWrap>div.main{
 /* 컨텐츠 공통 */
 div.cntWrap{
     margin-top: 60px;
+    overflow-x: hidden;
 }
 
 /* 컨텐츠1 */
