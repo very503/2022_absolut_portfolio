@@ -88,6 +88,9 @@ div.cntWrap>div.content.cnt01>div.section{
     width: 100%;
     margin: 0 auto;
 }
+div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
+    width: 168px;
+}
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
     width: 150px;
     height: 150px;
@@ -138,6 +141,9 @@ div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a1>div.texts>
 
 
 /* 컨텐츠3 */
+div.cntWrap:nth-child(3){
+    margin-top: 20px;
+}
 div.cntWrap>div.content.cnt03>div.header{
     margin-top: 0;
 }
@@ -146,7 +152,7 @@ div.cntWrap>div.content.cnt03>div.header>h2{
 }
 div.cntWrap>div.content.cnt03>div.section{
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artLeft{
     width: 100%;
@@ -234,7 +240,7 @@ div.cntWrap>div.content.cnt04>div.header>h2{
 }
 div.cntWrap>div.content.cnt04>div.section{
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 0px;
 }
 div.cntWrap>div.content.cnt04>div.section>div.artLeft{
     width: 100%;
@@ -295,7 +301,7 @@ div.bnrWrap{
     margin-top: 40px;
 }
 div.bnrWrap>div.banner{
-    height: 160px;
+    height: 150px;
 }
 
 /* 푸터 */
