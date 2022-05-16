@@ -88,9 +88,6 @@ div.cntWrap>div.content.cnt01>div.section{
     width: 100%;
     margin: 0 auto;
 }
-div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
-    width: 168px;
-}
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
     width: 150px;
     height: 150px;
@@ -100,7 +97,6 @@ div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article>d
 }
 
 /* 컨텐츠2 */
-div.cntWrap>div.content.cnt02{}
 div.cntWrap>div.content.cnt02>div.section{
     flex-direction: column;
 }
@@ -117,7 +113,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a1{
     position: absolute;
     margin: auto;
     left: 0; right: 0;
-    top: 655px;
+    top: 580px;
     text-align: center;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2{
@@ -141,9 +137,6 @@ div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a1>div.texts>
 
 
 /* 컨텐츠3 */
-div.cntWrap:nth-child(3){
-    margin-top: 20px;
-}
 div.cntWrap>div.content.cnt03>div.header{
     margin-top: 0;
 }
@@ -157,6 +150,9 @@ div.cntWrap>div.content.cnt03>div.section{
 div.cntWrap>div.content.cnt03>div.section>div.artLeft{
     width: 100%;
 }
+div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article{
+    margin-top: 0;
+}
 div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.images{
     display: none;
 }
@@ -164,13 +160,16 @@ div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts{
     text-align: center;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts>h3{
-    margin-top: 0;
+    margin-top: 20px;
     font-size: 16px;
     color: #0056a4;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts>p{
     width: calc(100% /4 * 3.4);
     margin: 0 auto;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.texts>p>span{
+    display: none;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artRight{
     width: 100%;
@@ -202,7 +201,7 @@ div.cntWrap>div.content.cnt03>div.section>div.artRight>ul.paging{
     position: absolute;
     margin: auto;
     left: 0; right: 0;
-    bottom: 204px;
+    bottom: 200px;
     z-index: 999;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artRight>ul.paging>li{
@@ -247,7 +246,7 @@ div.cntWrap>div.content.cnt04>div.section>div.artLeft{
     margin-left: 0;
 }
 div.cntWrap>div.content.cnt04>div.section>div.artLeft>div.article>div.texts{
-    margin-top: 0;
+    margin-top: -30px;
     text-align: center;
 }
 div.cntWrap>div.content.cnt04>div.section>div.artLeft>div.article>div.texts>h3{
