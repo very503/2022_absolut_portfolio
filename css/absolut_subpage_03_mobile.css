@@ -117,7 +117,8 @@ div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a1{
     text-align: center;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2{
-    margin-top: 0;
+    margin-top: 10px;
+    height: 80px;
 }
 div.cntWrap>div.content.cnt02>div.section>div.artRight>div.article.a2>div.texts{
     display: none;
