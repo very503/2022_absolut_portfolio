@@ -74,6 +74,9 @@ div.mainWrap>div.main>div.texts>h5{
 }
 
 /* 컨텐츠1 */
+div.cntWrap:nth-child(3){
+    height: 320px;
+}
 div.cntWrap>div.content.cnt01>div.header>h2{
     font-size: 16px;
 }
@@ -158,8 +161,11 @@ div.cntWrap>div.content.cnt03{
 }
 
 /* 컨텐츠4 */
+div.cntWrap:nth-child(7){
+    margin-top: 0px;
+}
 div.cntWrap>div.content.cnt04{
-    margin-top: 40px;
+    margin-top: 0px;
 }
 div.cntWrap>div.content.cnt04::after{
     display: none;
@@ -167,6 +173,7 @@ div.cntWrap>div.content.cnt04::after{
 div.cntWrap>div.content.cnt04>div.header{
     float: none;
     width: 100%;
+    margin-top: 0px;
 }
 div.cntWrap>div.content.cnt04>div.header>h5{
     text-align: center;

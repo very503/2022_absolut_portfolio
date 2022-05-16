@@ -156,9 +156,6 @@ div.cntWrap.cntWrap03>div.content.cnt03>div.section>div.artTop>div.article>div.t
 }
 
 /* 컨텐츠4 */
-div.cntWrap:nth-child(4){
-  margin-top: 0px;
-}
 div.cntWrap>div.content.cnt04>div.section>div.artTop>div.article{
   height: 230px;
 }

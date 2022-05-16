@@ -82,7 +82,7 @@ div.cntWrap>div.content div.header>h2{
 
 /* 컨텐츠1 */
 div.cntWrap>div.content.cnt01>div.section{
-  margin-top: 40px;
+  margin-top: 10px;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artTop>div.article{
   width: calc(100% / 3 - 20px);
@@ -155,7 +155,7 @@ div.cntWrap.cntWrap03>div.content.cnt03>div.section>div.artTop>div.article>div.t
     margin-top: 0;
 }
 div.cntWrap.cntWrap03>div.content.cnt03>div.section>div.artTop>div.article>div.texts>h3{
-    font-size: 16px;
+    font-size: 14px;
 }
 div.cntWrap.cntWrap03>div.content.cnt03>div.section>div.artTop>div.article>div.texts>p{
     font-size: 12px;
@@ -216,6 +216,9 @@ div.cntWrap>div.content.cnt04>div.section>div.artMid>div.article>div.texts>h3{
 div.cntWrap>div.content.cnt04>div.section>div.artMid>div.article>div.texts>p{
     font-size: 12px;
     margin-top: 10px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.artBtm{
+  margin-top: 50px;
 }
 div.cntWrap>div.content.cnt04>div.section>div.artBtm>div.article{
     width: calc(100% / 4 - 20px);
