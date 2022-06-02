@@ -1,32 +1,34 @@
 $(function(){
+   var wd = $(window).width();
+   var mv = 0;
+   //cnt01
    var prd1 = $('.cnt01 .artTop .article');
    var prdBtm1 = $('.artBtm .artGroup');
+   //cnt03
    var prd3  = $('.cnt03 .artBtm .article');
    var prdTop3 = $('.artTop .texts');
+   //cnt04
    var prd4  = $('.cnt04 .article');
    var prdMid = $('.artMid .texts');
    
-   //컨텐츠1
-
-   var wd = $(window).width();
-   var mv = 0;
-
+   
    if(wd > 1024){
        mv=400;
-   
-   }else if(wd > 420 && wd <= 1024){
+    }else if(wd > 420 && wd <= 1024){
        mv=280;
-   }else{
+    }else{
        mv=220;
-   };
-
+    };
+   
+    
+   //cnt01
    prd1.click(function(){
        var ind = $(this).index();
        prdBtm1.css('margin-top',ind*-mv+'px');
-
    });
    
-   //컨텐츠3
+
+   //cnt03
    prd3.click(function(){
        var title3 = $(this).find('.image').text();
        var note3 = $(this).find('.texts').text();
@@ -42,11 +44,9 @@ $(function(){
    });
 
    
-   //투탑
+   //totop
    $('.totop').click(function(){
-   $('html,body').stop().animate({ scrollTop : 0 },500);
-});
+       $('html,body').stop().animate({ scrollTop : 0 },500);
+   });
    
-
-
 });
