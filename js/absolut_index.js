@@ -26,7 +26,6 @@ $(function(){
         bar4.find('.btnRight').click(infmovR);
         //totop
         $('.totop').click(ttop);
-        
     }else if(wd <= 420){
         mv4 = -20 +'%';
         //cnt02

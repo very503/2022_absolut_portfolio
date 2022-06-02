@@ -1,52 +1,67 @@
 $(function(){
+    var i = 0;
+    var wd = $(window).width();
+    //cnt0 무한루프
     var imgG = $('.imgGroup');
     var imgG2 = $('.imgGroup2');
-    var artGroup4 = $('.cnt04 .artGroup');
+    //cnt04 무한루프
+    var cnt04artG = $('.cnt04 .artGroup');
+    var cnt04art = $('.cnt04 .article');
     var bar04 = $('.cnt04 .bar');
     var ind = 0;
 
 
-    //컨텐츠3 무한루프
-    imgG.find('.image:last').prependTo(imgG);
-    imgG.css({ marginLeft : '-100%'});
+    if(wd > 420){
+        //cnt03 무한루프
+        imgG.find('.image:last').prependTo(imgG);
+        imgG.css({ marginLeft : '-100%'});
+        imgG2.find('.image:last').prependTo(imgG2);
+        imgG2.css({ marginLeft : '-33.37%'});
+        imgG2.find('.image').click(infmov);
+        //cnt04 무한루프
+        artGroup4.find('.article:last').prependTo(artGroup4);
+        artGroup4.css({ marginLeft : '-28%'});
+        bar04.find('.btnLeft').click(leftmov);
+        bar04.find('.btnRight').click(rightmov);
+        //totop
+        $('.totop').click(ttop);
+    }else if(wd <= 420){
+        cnt04art.swipeleft(mobleftmov);
+        cnt04art.swiperight(mobrightmov);
+    };
 
-    imgG2.find('.image:last').prependTo(imgG2);
-    imgG2.css({ marginLeft : '-33.37%'});
-    
-    imgG2.find('.image').click(function(){
-        //무한루프
+
+    //cnt03 무한루프
+    function infmov(){
+        //무한루프 Left
         imgG.animate({
             marginLeft : '-200%'
         },500,function(){
             imgG.find('.image:first').appendTo(imgG);
             imgG.css({ marginLeft : '-100%'});
         });
-
+        //무한루프 Right
         imgG2.animate({
             marginLeft : '-66.74%'
         },500,function(){
             imgG2.find('.image:first').appendTo(imgG2);
             imgG2.css({ marginLeft : '-33.37%'});
         });
-    });
+    }
 
     
-    //컨텐츠4 무한루프
-    artGroup4.find('.article:last').prependTo(artGroup4);
-    artGroup4.css({ marginLeft : '-28%'});
-
-
+    //cnt04 무한루프
     //Left 버튼 눌렀을때
-    bar04.find('.btnLeft').click(function(){
+    function leftmov(){
         //무한루프
-        artGroup4.stop().animate({
+        cnt04artG.stop().animate({
             marginLeft : '0%'
         },500,function(){
-            artGroup4.find('.article:last').prependTo(artGroup4);
-            artGroup4.css({marginLeft : '-28%'});
+            cnt04artG.find('.article:last').prependTo(cnt04artG);
+            cnt04artG.css({marginLeft : '-28%'});
         });
     
-        ind =  artGroup4.find('.article:eq(0)').attr('data-num');
+        ind =  cnt04artG.find('.article:eq(0)').attr('data-num');
     
         //바
         bar04.find('.per .perbg').css({
@@ -61,20 +76,18 @@ $(function(){
                 bar04.find('.per .perbg').css({display:'block'})
             },200);
         }
-    });
+    };
     
-
     //Right 버튼 눌렀을때
-    bar04.find('.btnRight').click(function(){
-        //무한루프
-        artGroup4.stop().animate({
+    function rightmov(){
+        cnt04artG.stop().animate({
             marginLeft : '-56%'
         },500,function(){
-            artGroup4.find('.article:first').appendTo(artGroup4);
-            artGroup4.css({marginLeft : '-28%'});
+            cnt04artG.find('.article:first').appendTo(cnt04artG);
+            cnt04artG.css({marginLeft : '-28%'});
         });
 
-        ind =  artGroup4.find('.article:eq(2)').attr('data-num');
+        ind =  cnt04artG.find('.article:eq(2)').attr('data-num');
 
         //바
         bar04.find('.per .perbg').css({
@@ -88,13 +101,30 @@ $(function(){
             setTimeout(function(){
                 bar04.find('.per .perbg').css({display:'block'})
             },200);
-        }
-    });
+        };
+    };
 
 
-    //투탑
-    $('.totop').click(function(){
+    //cnt04 mob무한루프
+    function mobleftmov(){
+        i++;
+        if(i>=1){
+            i=1;
+        };
+        cnt04artG.css('marginLeft',i*-100+'%');
+    };
+    
+    function mobrightmov(){
+        i--;
+        if(i<=0){
+            i=0;
+        };
+        cnt04artG.css('marginLeft',i*-100+'%');
+    };
+
+
+    //totop
+    function ttop(){
         $('html,body').stop().animate({ scrollTop : 0 },500);
-    });
-  
+    };
 });

@@ -198,7 +198,7 @@ div.cntWrap>div.content.cnt04>div.section>div.artView{
     min-width: 90%;
 }
 div.cntWrap>div.content.cnt04>div.section>div.artView>div.artGroup{
-    width: 190%;
+    width: 200%;
 }
 div.cntWrap>div.content.cnt04>div.section>div.artView>div.artGroup>div.article{
     width: calc(100% / 6 - 24px);
