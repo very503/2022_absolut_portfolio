@@ -19,8 +19,8 @@ $(function(){
         imgG2.css({ marginLeft : '-33.37%'});
         imgG2.find('.image').click(infmov);
         //cnt04 무한루프
-        artGroup4.find('.article:last').prependTo(artGroup4);
-        artGroup4.css({ marginLeft : '-28%'});
+        cnt04artG.find('.article:last').prependTo(cnt04artG);
+        cnt04artG.css({ marginLeft : '-28%'});
         bar04.find('.btnLeft').click(leftmov);
         bar04.find('.btnRight').click(rightmov);
         //totop
@@ -51,7 +51,7 @@ $(function(){
 
     
     //cnt04 무한루프
-    //Left 버튼 눌렀을때
+    //Left 클릭시
     function leftmov(){
         //무한루프
         cnt04artG.stop().animate({
@@ -78,7 +78,7 @@ $(function(){
         }
     };
     
-    //Right 버튼 눌렀을때
+    //Right 클릭시
     function rightmov(){
         cnt04artG.stop().animate({
             marginLeft : '-56%'

@@ -197,6 +197,15 @@ div.cntWrap>div.content.cnt04>div.section>div.artView{
     width: 100%;
     min-width: 90%;
 }
+div.cntWrap>div.content.cnt04>div.section>div.artView::before{
+    content: 'swipe';
+    display: block;
+    color: #333;
+    font-size: 12px;
+    text-align: right;
+    font-family: 'nsRegular';
+    margin-top: 10px;
+}
 div.cntWrap>div.content.cnt04>div.section>div.artView>div.artGroup{
     width: 200%;
 }
@@ -209,25 +218,6 @@ div.cntWrap>div.content.cnt04>div.section>div.artView>div.artGroup>div.article>d
     margin-top: -25px;
 }
 div.cntWrap>div.content.cnt04>div.section>div.bar{
-    margin-top: 20px;
-}
-div.cntWrap>div.content.cnt04>div.section>div.bar>div.per{
-    width: 100%;
-    margin-left: 0px;
-}
-div.cntWrap>div.content.cnt04>div.section>div.bar>div.per::after{
-    content: 'swipe';
-    display: block;
-    color: #333;
-    font-size: 12px;
-    text-align: left;
-    font-family: 'nsRegular';
-    margin-top: -30px;
-}
-div.cntWrap>div.content.cnt04>div.section>div.bar>div.btnLeft{
-    display: none;
-}
-div.cntWrap>div.content.cnt04>div.section>div.bar>div.btnRight{
     display: none;
 }
 
