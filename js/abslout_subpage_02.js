@@ -51,7 +51,7 @@ $(function(){
 
     
     //cnt04 무한루프
-    //Left 클릭시
+    //Left 버튼 클릭시
     function leftmov(){
         //무한루프
         cnt04artG.stop().animate({
@@ -78,7 +78,7 @@ $(function(){
         }
     };
     
-    //Right 클릭시
+    //Right 버튼 클릭시
     function rightmov(){
         cnt04artG.stop().animate({
             marginLeft : '-56%'

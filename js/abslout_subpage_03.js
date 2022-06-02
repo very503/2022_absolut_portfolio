@@ -1,31 +1,31 @@
 $(function(){
-    //컨텐츠1번 변수
+    var i = 0;
+    var wd4 = $(window).width();
+    //cnt01
     var artG1 = $('.content.cnt01 .artGroup');
     var btn1 = $('.content.cnt01 .btns');
     var bar1 = $('.content.cnt01 .bar');
 
-    //컨텐츠2번 변수
+    //cnt02
     var artl = $('.content.cnt02 .artLeft .article.a2 .imgGroup');
     var artr = $('.content.cnt02 .artRight .article.a2 .imgGroup');
     var bar2 = $('.content.cnt02 .bar');
     var btn2 = $('.content.cnt02 .artRight .article.a2');
     var artLen = artl.children().length;
 
-    //컨텐츠4번 변수
+    //cnt04
     var artG4 = $('.content.cnt04 .artRight .artGroup2');
     var btn4 = $('.content.cnt04 .btns');
-    var i = 0;
-    var wd4 = $(window).width();
     var mv4 = 0;
 
 
 
-    //컨텐츠1 무한루프
+    //cnt01 무한루프
     //초기셋팅
     artG1.find('.article:last').prependTo(artG1);
     artG1.css({ marginLeft : '-34.14%'});
 
-    //Left 버튼 눌렀을때
+    //Left 버튼 클릭시
     btn1.find('.btnLeft').click(function(){
         //무한루프
         artG1.stop().animate({
