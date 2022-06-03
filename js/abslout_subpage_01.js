@@ -11,7 +11,8 @@ $(function(){
    var prd4  = $('.cnt04 .article');
    var prdMid = $('.artMid .texts');
    
-   
+
+   //디바이스 크기에 따라 나눔
    if(wd > 1024){
        mv=400;
     }else if(wd > 420 && wd <= 1024){

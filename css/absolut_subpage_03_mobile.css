@@ -211,7 +211,7 @@ div.cntWrap>div.content.cnt03>div.section>div.artRight>ul.paging>li{
     background-color: #ccc;
     clip-path: circle(50% at 50% 50%);
 }
-div.cntWrap>div.content.cnt03>div.section>div.artRight>ul.paging>li:nth-child(1){
+div.cntWrap>div.content.cnt03>div.section>div.artRight>ul.paging>li.show{
     background-color: #0056a4;
 }
 div.cntWrap>div.content.cnt03>div.section>div.artRight>div.article.a3>div.image{

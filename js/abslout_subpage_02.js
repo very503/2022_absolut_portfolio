@@ -1,31 +1,40 @@
 $(function(){
     var i = 0;
     var wd = $(window).width();
-    //cnt0 무한루프
+    //cnt03
     var imgG = $('.imgGroup');
     var imgG2 = $('.imgGroup2');
-    //cnt04 무한루프
+    //cnt04
     var cnt04artG = $('.cnt04 .artGroup');
     var cnt04art = $('.cnt04 .article');
     var bar04 = $('.cnt04 .bar');
     var ind = 0;
 
-
+    
+    //tab이상 디바이스 크기 & 모바일 디바이스 크기
     if(wd > 420){
         //cnt03 무한루프
+        //초기셋팅
         imgG.find('.image:last').prependTo(imgG);
         imgG.css({ marginLeft : '-100%'});
+        //초기셋팅
         imgG2.find('.image:last').prependTo(imgG2);
         imgG2.css({ marginLeft : '-33.37%'});
+        //무한루프
         imgG2.find('.image').click(infmov);
+
         //cnt04 무한루프
+        //초기셋팅
         cnt04artG.find('.article:last').prependTo(cnt04artG);
         cnt04artG.css({ marginLeft : '-28%'});
+        //무한루프
         bar04.find('.btnLeft').click(leftmov);
         bar04.find('.btnRight').click(rightmov);
         //totop
         $('.totop').click(ttop);
+
     }else if(wd <= 420){
+        //cnt04 mob스와이프
         cnt04art.swipeleft(mobleftmov);
         cnt04art.swiperight(mobrightmov);
     };
@@ -105,7 +114,7 @@ $(function(){
     };
 
 
-    //cnt04 mob무한루프
+    //cnt04 mob스와이프
     function mobleftmov(){
         i++;
         if(i>=1){
@@ -127,4 +136,5 @@ $(function(){
     function ttop(){
         $('html,body').stop().animate({ scrollTop : 0 },500);
     };
+    
 });
