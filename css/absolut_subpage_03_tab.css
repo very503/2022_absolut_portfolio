@@ -103,7 +103,7 @@ div.cntWrap>div.content.cnt01>div.section{
     width: calc(100% / 8 * 6);
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup{
-    width: 170%;
+    width: 169%;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artView>div.artGroup>div.article{
     width: calc(100% / 5);
